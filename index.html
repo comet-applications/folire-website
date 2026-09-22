@@ -9,7 +9,7 @@
     <meta property="og:description" content="A local-first reader for iPhone and iPad with beautiful typography, private reading tools, flexible controls, and meaningful insights.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://folire.app/">
-    <meta property="og:image" content="https://folire.app/assets/library.png">
+    <meta property="og:image" content="https://folire.app/assets/library-public-domain.png">
     <meta name="twitter:card" content="summary_large_image">
     <title>Folire — Private, powerful book reader</title>
     <link rel="icon" href="assets/folire-icon.svg" type="image/svg+xml">
@@ -63,10 +63,10 @@
           <div class="orbit orbit-one"></div>
           <div class="orbit orbit-two"></div>
           <div class="phone phone-back" aria-hidden="true">
-            <img src="assets/library.png" alt="" width="828" height="1792">
+            <img src="assets/library-public-domain.png" alt="" width="853" height="1844">
           </div>
           <div class="phone phone-front">
-            <img src="assets/reader.png" alt="Folire reader displaying a book with simple reading controls" width="828" height="1792">
+            <img src="assets/reader-public-domain.png" alt="Folire displaying Moby-Dick by Herman Melville with a photographic public-domain book cover" width="853" height="1844">
           </div>
           <div class="floating-note note-format" aria-hidden="true">
             <span>8 formats</span>
@@ -148,14 +148,14 @@
               <span>EPUB</span><span>PDF</span><span>CBZ</span><span>CBR</span><span>TXT</span><span>FB2</span><span>MOBI</span><span>AZW3</span>
             </div>
             <div class="showcase-tabs" role="tablist" aria-label="App preview">
-              <button role="tab" aria-selected="true" aria-controls="preview-panel" data-preview="library.png" data-alt="Folire library with smart shelves and search">Library</button>
+              <button role="tab" aria-selected="true" aria-controls="preview-panel" data-preview="library-public-domain.png" data-alt="Folire library with Pride and Prejudice, Moby-Dick, Frankenstein, and The Adventures of Sherlock Holmes">Library</button>
               <button role="tab" aria-selected="false" aria-controls="preview-panel" data-preview="sources.png" data-alt="Folire sources screen with import and network library options">Sources</button>
               <button role="tab" aria-selected="false" aria-controls="preview-panel" data-preview="settings.png" data-alt="Folire settings with reading goal and typography options">Settings</button>
             </div>
           </div>
           <div class="showcase-device reveal" id="preview-panel" role="tabpanel">
             <div class="phone phone-showcase">
-              <img data-preview-image src="assets/library.png" alt="Folire library with smart shelves and search" width="828" height="1792">
+              <img data-preview-image src="assets/library-public-domain.png" alt="Folire library with Pride and Prejudice, Moby-Dick, Frankenstein, and The Adventures of Sherlock Holmes" width="853" height="1844">
             </div>
             <div class="shelf-line" aria-hidden="true"></div>
           </div>
@@ -198,7 +198,7 @@
               <p class="kicker">The reader landscape</p>
               <h2>Built for ownership,<br><em>not an ecosystem.</em></h2>
             </div>
-            <p>Moon+ wins on sheer format count. Store readers win on storefront reach. Folire focuses on a different advantage: private, durable tools for the library you control.</p>
+            <p>Reader apps make different tradeoffs across format support, storefront access, privacy, and library tools. Folire focuses on private, durable tools for the library you control.</p>
           </div>
 
           <div class="comparison-wrap reveal" tabindex="0" aria-label="Scrollable reader app comparison">
@@ -207,81 +207,54 @@
                 <tr>
                   <th scope="col">Feature</th>
                   <th scope="col" class="folire-col"><img src="assets/folire-icon.svg" alt="" width="30" height="30">Folire</th>
-                  <th scope="col">Moon+ Pro</th>
-                  <th scope="col">Apple Books</th>
-                  <th scope="col">Kindle</th>
-                  <th scope="col">BookFusion</th>
+                  <th scope="col">Others</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <th scope="row">DRM-free local formats</th>
                   <td class="folire-col"><strong>8 formats</strong><small>EPUB, PDF, CBZ/R, TXT, FB2, MOBI, AZW3</small></td>
-                  <td><strong>20+ formats</strong><small>Broadest on paper</small></td>
-                  <td><strong>EPUB + PDF</strong></td>
-                  <td><strong>Via Send to Kindle</strong><small>Conversion workflow</small></td>
-                  <td><strong>Many formats</strong><small>Cloud upload</small></td>
+                  <td><strong>Varies by app</strong><small>From a few formats to broad format support</small></td>
                 </tr>
                 <tr>
                   <th scope="row">Direct OPDS / WebDAV libraries</th>
                   <td class="folire-col"><span class="yes">Both</span></td>
-                  <td><span class="yes">Both</span></td>
-                  <td><span class="muted">No public claim</span></td>
-                  <td><span class="muted">No public claim</span></td>
-                  <td><span class="partial">Calibre workflow</span></td>
+                  <td><strong>Varies</strong><small>Some connect directly; others use import workflows</small></td>
                 </tr>
                 <tr class="differentiator">
                   <th scope="row">Spoiler-safe questions &amp; recaps</th>
                   <td class="folire-col"><span class="best">On device · only text read</span></td>
-                  <td><span class="muted">No public claim</span></td>
-                  <td><span class="muted">No public claim</span></td>
-                  <td><span class="muted">No public claim</span></td>
-                  <td><span class="muted">No public claim</span></td>
+                  <td><span class="muted">No comparable feature found</span></td>
                 </tr>
                 <tr>
                   <th scope="row">Full-library passage search</th>
                   <td class="folire-col"><span class="best">On device</span></td>
-                  <td><span class="partial">Library + in-book search</span></td>
-                  <td><span class="partial">In-book search</span></td>
-                  <td><span class="partial">In-book search</span></td>
-                  <td><span class="partial">Library &amp; notes tools</span></td>
+                  <td><strong>Varies by app</strong><small>In-book search is common; whole-library search varies</small></td>
                 </tr>
                 <tr class="differentiator">
                   <th scope="row">Safe book-file updates</th>
                   <td class="folire-col"><span class="best">Preserves place, notes &amp; stats</span></td>
-                  <td><span class="muted">No public claim</span></td>
-                  <td><span class="muted">No public claim</span></td>
-                  <td><span class="muted">No public claim</span></td>
-                  <td><span class="partial">Replace file</span></td>
+                  <td><span class="muted">No comparable feature found</span></td>
                 </tr>
                 <tr>
                   <th scope="row">Annotation portability</th>
                   <td class="folire-col"><strong>MD · TXT · JSON · CSV</strong></td>
-                  <td><span class="partial">Share / backup</span></td>
-                  <td><span class="partial">Apple sharing</span></td>
-                  <td><span class="partial">Notebook / export</span></td>
-                  <td><strong>Exports + integrations</strong></td>
+                  <td><strong>Varies by app</strong><small>Sharing, backup, and export options differ</small></td>
                 </tr>
                 <tr>
                   <th scope="row">Business model</th>
                   <td class="folire-col"><span class="best">Free tier + $14.99 once</span></td>
-                  <td><strong>$11.99 once</strong></td>
-                  <td><span class="partial">Free + book store</span></td>
-                  <td><span class="partial">Free + book store</span></td>
-                  <td><strong>Free + subscription</strong></td>
+                  <td><strong>Varies</strong><small>Free, one-time purchase, and subscription models</small></td>
                 </tr>
                 <tr>
                   <th scope="row">Product account required</th>
                   <td class="folire-col"><span class="best">No Folire account</span></td>
-                  <td><span class="yes">No Moon+ account</span></td>
-                  <td><span class="partial">Apple ID for store / sync</span></td>
-                  <td><strong>Amazon account</strong></td>
-                  <td><strong>BookFusion account</strong></td>
+                  <td><strong>Varies by app</strong><small>Some features may depend on a store or service account</small></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p class="comparison-note reveal">Compared from publicly documented product pages on September 21, 2026. “No public claim” means we could not verify that capability in the company’s public feature material—not that it is definitively absent. Features and prices can change. <a href="#comparison-sources">See sources</a>.</p>
+          <p class="comparison-note reveal">“Others” summarizes a range of reader apps, so feature availability varies by product. “No comparable feature found” means we could not verify an equivalent capability in the public feature material reviewed—not that it is definitively absent. Features and prices can change. <a href="#comparison-sources">See sources</a>.</p>
         </div>
       </section>
 
@@ -293,7 +266,7 @@
           <div class="privacy-copy reveal">
             <p class="kicker">Private by architecture</p>
             <h2>Your reading life<br><em>isn’t a product.</em></h2>
-            <p>Folire requires no Folire account and has no advertising, analytics, tracking SDKs, or developer-operated server. Books live in private app storage. Optional iCloud progress sync uses your private iCloud account.</p>
+            <p>Folire requires no Folire account and has no advertising, analytics, tracking SDKs, or developer-operated server. Books live in private app storage. Optional iCloud library sync uses your private iCloud account.</p>
             <ul class="privacy-list">
               <li><span>01</span> Book text stays on your device</li>
               <li><span>02</span> Search and reading questions run locally</li>
