@@ -4,14 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#1d1714">
-    <meta name="description" content="Folire is a private reader for iPhone and iPad. Read EPUB, PDF, comics, TXT, FB2, MOBI, and AZW3; listen to MP3, M4A, and M4B audiobooks—without an account, ads, or tracking.">
-    <meta property="og:title" content="Folire — Your books. Your pace. Your privacy.">
-    <meta property="og:description" content="A local-first reader for iPhone and iPad with beautiful typography, private reading tools, flexible controls, and meaningful insights.">
+    <title>Folire: Private EPUB, PDF &amp; Audiobook Reader for iPhone and iPad</title>
+    <meta name="description" content="Folire is a private ebook and audiobook reader for iPhone and iPad. Read EPUB, PDF, comics, and more with offline tools, no account, and no tracking.">
+    <link rel="canonical" href="https://folire.app/">
+    <meta property="og:title" content="Folire: Private EPUB, PDF &amp; Audiobook Reader">
+    <meta property="og:description" content="Read the books you own on iPhone and iPad. Folire supports ebooks, comics, and audiobooks with offline tools and no tracking.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://folire.app/">
-    <meta property="og:image" content="https://folire.app/assets/library-public-domain.png">
+    <meta property="og:image" content="https://folire.app/assets/library-public-domain.jpg">
+    <meta property="og:image:alt" content="Folire library showing public-domain books on iPhone">
+    <meta property="og:image:width" content="853">
+    <meta property="og:image:height" content="1844">
     <meta name="twitter:card" content="summary_large_image">
-    <title>Folire — Private, powerful book reader</title>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebSite","name":"Folire","url":"https://folire.app/"}
+    </script>
     <link rel="icon" href="assets/folire-icon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
@@ -42,9 +49,9 @@
     <main id="main">
       <section class="hero shell" id="top">
         <div class="hero-copy reveal">
-          <div class="eyebrow"><span class="status-dot"></span> Built for iPhone &amp; iPad</div>
+          <div class="eyebrow"><span class="status-dot"></span> Private ebook reader for iPhone &amp; iPad</div>
           <h1>Your books.<br><em>Your pace.</em><br>Your privacy.</h1>
-          <p class="hero-lede">Folire is a thoughtful home for the books you already own—beautifully typeset, deeply customizable, and private by design.</p>
+          <p class="hero-lede">Folire brings your EPUB, PDF, comic, and audiobook library to iPhone and iPad—beautifully typeset, deeply customizable, and private by design.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#download">
               <span class="apple-mark" aria-hidden="true"></span>
@@ -63,10 +70,10 @@
           <div class="orbit orbit-one"></div>
           <div class="orbit orbit-two"></div>
           <div class="phone phone-back" aria-hidden="true">
-            <img src="assets/library-public-domain.png" alt="" width="853" height="1844">
+            <img src="assets/library-public-domain.jpg" alt="" width="853" height="1844">
           </div>
           <div class="phone phone-front">
-            <img src="assets/reader-public-domain.png" alt="Folire displaying Moby-Dick by Herman Melville with a photographic public-domain book cover" width="853" height="1844">
+            <img src="assets/reader-public-domain.jpg" alt="Folire displaying Moby-Dick by Herman Melville with a photographic public-domain book cover" width="853" height="1844" fetchpriority="high">
           </div>
           <div class="floating-note note-format" aria-hidden="true">
             <span>11 formats</span>
@@ -148,14 +155,14 @@
               <span>EPUB</span><span>PDF</span><span>CBZ</span><span>CBR</span><span>TXT</span><span>FB2</span><span>MOBI</span><span>AZW3</span><span>MP3</span><span>M4A</span><span>M4B</span>
             </div>
             <div class="showcase-tabs" role="tablist" aria-label="App preview">
-              <button role="tab" aria-selected="true" aria-controls="preview-panel" data-preview="library-public-domain.png" data-alt="Folire library with Pride and Prejudice, Moby-Dick, Frankenstein, and The Adventures of Sherlock Holmes">Library</button>
+              <button role="tab" aria-selected="true" aria-controls="preview-panel" data-preview="library-public-domain.jpg" data-alt="Folire library with Pride and Prejudice, Moby-Dick, Frankenstein, and The Adventures of Sherlock Holmes">Library</button>
               <button role="tab" aria-selected="false" aria-controls="preview-panel" data-preview="sources.png" data-alt="Folire sources screen with import and network library options">Sources</button>
               <button role="tab" aria-selected="false" aria-controls="preview-panel" data-preview="settings.png" data-alt="Folire settings with reading goal and typography options">Settings</button>
             </div>
           </div>
           <div class="showcase-device reveal" id="preview-panel" role="tabpanel">
             <div class="phone phone-showcase">
-              <img data-preview-image src="assets/library-public-domain.png" alt="Folire library with Pride and Prejudice, Moby-Dick, Frankenstein, and The Adventures of Sherlock Holmes" width="853" height="1844">
+              <img data-preview-image src="assets/library-public-domain.jpg" alt="Folire library with Pride and Prejudice, Moby-Dick, Frankenstein, and The Adventures of Sherlock Holmes" width="853" height="1844" loading="lazy" decoding="async">
             </div>
             <div class="shelf-line" aria-hidden="true"></div>
           </div>
