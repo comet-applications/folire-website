@@ -240,6 +240,7 @@ h1 em, h2 em { color: var(--orange); font-family: Georgia, "Times New Roman", se
 .faq-list summary span { color: var(--orange); font-size: 1.6rem; font-weight: 350; transition: transform .2s ease; }
 .faq-list details[open] summary span { transform: rotate(45deg); }
 .faq-list details p { max-width: 650px; margin: -8px 0 28px; color: var(--ink-soft); }
+.faq-list details p a { color: var(--orange-dark); text-decoration: underline; text-underline-offset: 3px; }
 
 .download-section { padding: 100px 0; background: var(--orange); color: white; text-align: center; }
 .download-inner { display: flex; flex-direction: column; align-items: center; }
